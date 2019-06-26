@@ -4,4 +4,8 @@ import Foundation
 
 var str = "Hello, playground"
 
-//: [Next](@next)
+6 >= 6
+
+
+
+// [Next](@next)

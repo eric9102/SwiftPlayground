@@ -1,7 +1,9 @@
-//: [Previous](@previous)
 
 import Foundation
 
-var str = "Hello, playground"
+func greetAgain(person: String) -> String {
+    return "Hello again, " + person + "!"
+}
+print(greetAgain(person: "Anna"))
 
-//: [Next](@next)
+
