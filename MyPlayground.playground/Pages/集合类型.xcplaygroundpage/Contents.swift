@@ -42,7 +42,7 @@ var namesAndPets = [
 
 ]
 
-print(namesAndPets["cat"])   // Optional("meow")
+//print(namesAndPets["cat"])   // Optional("meow")
 
 let mydog = namesAndPets["dog"] ?? "no dog"
 
