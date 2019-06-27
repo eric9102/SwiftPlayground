@@ -38,7 +38,8 @@ if let index = pastries.firstIndex(of: "read") {
 var namesAndPets = [
 
     "cat" : "meow",
-    "dog": "wang"
+    "dog": "wang",
+    "pig" : "piqi"
 
 ]
 
@@ -49,21 +50,34 @@ let mydog = namesAndPets["dog"] ?? "no dog"
 print(mydog)
 
 
+//更新字典值
+
+namesAndPets.updateValue("bark", forKey: "dog")
+
+print(namesAndPets["dog"] ?? "nodog")
+
+namesAndPets["cat"] = "miao"
+
+namesAndPets
+
+namesAndPets.removeValue(forKey: "dog")
 
 
+namesAndPets["cat"] = nil
 
+print(namesAndPets)
 
+for (key, value) in namesAndPets {
+    print(("key : \(key)   value : \(value)"))
+}
 
+for (key, _) in namesAndPets {
+    print(("key : \(key)"))
+}
 
-
-
-
-
-
-
-
-
-
+for pet in namesAndPets.values {
+    print(pet)
+}
 
 
 
