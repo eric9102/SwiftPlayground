@@ -10,9 +10,9 @@
         <page name='继承'/>
         <page name='可选'/>
         <page name='控制流'/>
-        <page name='扩展'/>
         <page name='类和结构体'/>
         <page name='枚举'/>
+        <page name='扩展'/>
         <page name='协议'/>
         <page name='字符串和字符'/>
         <page name='属性'/>
