@@ -75,3 +75,34 @@ let bodyTemperature = Celsius(37)
  如果你自定义的类型有一个逻辑上允许值为空的存储型属性——无论是因为它无法在初始化时赋值，还是因为它在之后某个时机可以赋值为空——都需要将它声明为 可选类型。可选类型的属性将自动初始化为 nil，表示这个属性是特意在构造过程设置为空
  
  */
+
+class SurveyQuestion {
+    var text: String
+    var response: String?
+    init(text: String) {
+        self.text = text
+    }
+    func ask() {
+        print(text)
+    }
+}
+
+let cheeseQuestion = SurveyQuestion(text: "Do you like cheese?")
+cheeseQuestion.ask()
+// 打印“Do you like cheese?”
+cheeseQuestion.response = "Yes, I do like cheese."
+print(cheeseQuestion.response)
+
+/**
+ 
+ 构造过程中常量属性的赋值
+ 
+ 你可以在构造过程中的任意时间点给常量属性赋值，只要在构造过程结束时它设置成确定的值。一旦常量属性被赋值，它将永远不可更改。
+ 对于类的实例来说，它的常量属性只能在定义它的类的构造过程中修改；不能在子类中修改
+ 
+ */
+
+
+//默认构造器
+
+
