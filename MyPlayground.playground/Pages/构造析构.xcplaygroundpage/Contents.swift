@@ -91,7 +91,7 @@ let cheeseQuestion = SurveyQuestion(text: "Do you like cheese?")
 cheeseQuestion.ask()
 // 打印“Do you like cheese?”
 cheeseQuestion.response = "Yes, I do like cheese."
-print(cheeseQuestion.response)
+print(cheeseQuestion.response ?? "default value")
 
 /**
  
