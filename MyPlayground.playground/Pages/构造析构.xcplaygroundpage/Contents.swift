@@ -106,3 +106,51 @@ print(cheeseQuestion.response ?? "default value")
 //默认构造器
 
 
+//指定构造器和便利构造器的语法
+
+/**
+ init(parameters) {
+ statements
+ }
+ 
+ convenience init(parameters) {
+ statements
+ }
+ 
+ 为了简化指定构造器和便利构造器之间的调用关系，Swift 构造器之间的代理调用遵循以下三条规则：
+ 规则 1
+         指定构造器必须调用其直接父类的的指定构造器。
+ 规则 2
+         便利构造器必须调用同类中定义的其它构造器。
+ 规则 3
+         便利构造器最后必须调用指定构造器。
+ 一个更方便记忆的方法是：
+ 指定构造器必须总是向上代理
+ 便利构造器必须总是横向代理
+ 
+ */
+
+
+/**
+ 构造器的继承和重写
+ 
+ Swift 中的子类默认情况下不会继承父类的构造器
+ */
+
+class Vehicle {
+    var numberOfWheels = 0
+    var description: String {
+        return "\(numberOfWheels) wheel(s)"
+    }
+}
+
+class Food {
+    var name: String
+    init(name: String) {
+        self.name = name
+    }
+    
+    convenience init() {
+        self.init(name: "[Unnamed]")
+    }
+}
