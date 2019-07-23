@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios'>
+    <pages>
+        <page name='下标'/>
+        <page name='方法嵌套'/>
+        <page name='命名空间'/>
+        <page name='typealias'/>
+    </pages>
+</playground>
