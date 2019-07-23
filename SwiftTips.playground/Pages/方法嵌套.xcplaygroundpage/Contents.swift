@@ -2,6 +2,19 @@
 
 import Foundation
 
-var str = "Hello, playground"
+
+//func makeIncrementor(addNumber: Int) -> (inout Int) -> Void {
+//    
+//    func incrementor (inout variable: Int) -> Void {
+//    variable += addNumber
+//    }
+//    
+//    return incrementor
+//    
+//}
+
+
+
+
 
 //: [Next](@next)
