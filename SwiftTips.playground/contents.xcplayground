@@ -7,5 +7,9 @@
         <page name='typealias'/>
         <page name='associatedtype'/>
         <page name='可变参数函数'/>
+        <page name='初始化方法顺序'/>
+        <page name='Designated, Convenience, Required'/>
+        <page name='初始化放回nil'/>
+        <page name='static和class'/>
     </pages>
 </playground>
