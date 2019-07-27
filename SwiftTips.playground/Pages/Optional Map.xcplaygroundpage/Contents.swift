@@ -2,6 +2,9 @@
 
 import Foundation
 
-var str = "Hello, playground"
+let num: Int? = 3
+
+
+
 
 //: [Next](@next)
