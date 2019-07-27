@@ -11,5 +11,29 @@
         <page name='Designated, Convenience, Required'/>
         <page name='初始化放回nil'/>
         <page name='static和class'/>
+        <page name='多类型和容器'/>
+        <page name='default参数'/>
+        <page name='正则表达式'/>
+        <page name='模式匹配'/>
+        <page name='。。。和 。。&lt;'/>
+        <page name='AnyClass, 元类型和.self'/>
+        <page name='协议和类方法中的self'/>
+        <page name='动态类型和多方法'/>
+        <page name='属性观察'/>
+        <page name='final'/>
+        <page name='lazy修饰符和lazy方法'/>
+        <page name='Reflection和Mirror'/>
+        <page name='隐式解包 Optional'/>
+        <page name='多重 Optional'/>
+        <page name='Optional Map'/>
+        <page name='Protocol Extension'/>
+        <page name='where 和模式匹配'/>
+        <page name='indirect 和嵌套 enum'/>
+        <page name='↓↓↓从Objective C到Swift↓↓↓'/>
+        <page name='Selector'/>
+        <page name='实例方法的动态调用'/>
+        <page name='单例'/>
+        <page name='条件编译'/>
+        <page name='编译标记'/>
     </pages>
 </playground>
