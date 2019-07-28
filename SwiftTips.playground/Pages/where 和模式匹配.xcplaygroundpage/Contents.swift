@@ -14,7 +14,7 @@ name.forEach {
 
 
 let num: [Int?] = [48, 99, nil]
-let n = num.flatMap {$0}
+let n = num.compactMap {$0}
 
 for score in n where score > 60 {
     print("及格啦 - \(score)")
