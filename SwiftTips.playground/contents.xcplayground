@@ -35,5 +35,6 @@
         <page name='单例'/>
         <page name='条件编译'/>
         <page name='编译标记'/>
+        <page name='String还是NSString'/>
     </pages>
 </playground>
