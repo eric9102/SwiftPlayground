@@ -154,3 +154,43 @@ class Food {
         self.init(name: "[Unnamed]")
     }
 }
+
+
+class Ship {
+    
+    var name: String = "missing name"
+    var speed = 0
+    var isFlying = true
+    lazy var permit: Permit = Permit(validUntil: 2100)
+    
+    init(speed: Int, isFlying: Bool) {
+        self.speed = speed
+        self.isFlying = isFlying
+    }
+    
+    convenience init(speed: Int) {
+        
+        self.init(speed: speed, isFlying: false)
+        
+    }
+    
+}
+
+class Permit {
+    var validUntil  = 2017
+    
+    init(validUntil: Int) {
+        self.validUntil = validUntil
+        print("Permit object is contruct")
+    }
+    
+    deinit {
+        print("Permit instance is destroyed")
+    }
+    
+}
+
+let ship = Ship(speed: 20)
+
+ship.permit
+
