@@ -37,5 +37,6 @@
         <page name='编译标记'/>
         <page name='String还是NSString'/>
         <page name='GCD和延时调用'/>
+        <page name='将protocol的方法声明为mutating'/>
     </pages>
 </playground>
