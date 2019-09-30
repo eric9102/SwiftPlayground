@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <playground version='6.0' target-platform='ios'>
     <pages>
+        <page name='将protocol的方法声明为mutating'/>
+        <page name='@escaping'/>
+        <page name='atutoclosure和??'/>
+        <page name='Optional Chaining'/>
+        <page name='操作符'/>
+        <page name='func的参数修饰'/>
+        <page name='字面量表达'/>
         <page name='下标'/>
         <page name='方法嵌套'/>
         <page name='命名空间'/>
@@ -37,6 +44,5 @@
         <page name='编译标记'/>
         <page name='String还是NSString'/>
         <page name='GCD和延时调用'/>
-        <page name='将protocol的方法声明为mutating'/>
     </pages>
 </playground>

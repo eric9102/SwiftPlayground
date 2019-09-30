@@ -27,7 +27,7 @@ struct MyCar: Vehicle {
     }
 }
 
-//在使用class实现带有mutating的方法的协议时，具体是先前时不需要加mutating的
+//在使用class实现带有mutating的方法的协议时，具体实现前时不需要加mutating的
 
 
 
