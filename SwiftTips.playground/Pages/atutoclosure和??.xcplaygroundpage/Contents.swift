@@ -2,6 +2,14 @@
 
 import Foundation
 
-var str = "Hello, playground"
+var level: Int? 
+var startLevel = 1
+
+var currentLevel = level ?? startLevel
+
+print(currentLevel)
+
+
+
 
 //: [Next](@next)
