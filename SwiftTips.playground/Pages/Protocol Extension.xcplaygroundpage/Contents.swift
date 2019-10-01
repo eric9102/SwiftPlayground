@@ -10,6 +10,7 @@ extension MyProtocal {
     func method() {
         print("Called")
     }
+    
 }
 
 struct MyStruct: MyProtocal {
@@ -19,6 +20,7 @@ struct MyStruct: MyProtocal {
 }
 
 MyStruct().method()
+
 
 //==============================
 
@@ -75,6 +77,8 @@ b2.method2()
 let a2  = b2 as A2
 a2.method1()
 a2.method2()
+
+
 
 
 //: [Next](@next)
