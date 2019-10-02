@@ -45,5 +45,6 @@
         <page name='String还是NSString'/>
         <page name='GCD和延时调用'/>
         <page name='内存管理，weak和unowned'/>
+        <page name='What is AnyObject Any'/>
     </pages>
 </playground>
